@@ -1,0 +1,922 @@
+nav{
+  width: 100.3%;
+  height: 46px;
+  background: white;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+.inicio{
+  display: inline-block;
+  font-family: Arial;
+  color: #657786;
+  font-size: 15px;
+  margin-left: 50px;
+  width: 40px;
+  height: 40px;
+  padding-left: 40px;
+
+}
+.inicio{
+  cursor: pointer;
+}
+.inicio:hover{
+  border-bottom:5px solid blue;
+}
+.inicio img{
+  position: absolute;
+  margin-top: -40px;
+  margin-left: -25px;
+  width: 20px;
+}
+.not{
+  display: inline-block;
+  font-family: Arial;
+  color: #657786;
+  font-size: 15px;
+  width: 102px;
+  height: 40px;
+  padding-left: 40px;
+
+}
+.not img{
+  position: absolute;
+  margin-top: -40px;
+  margin-left: -25px;
+  width: 20px;
+}
+.not{
+  cursor: pointer;
+}
+.not:hover{
+  border-bottom:5px solid blue;
+}
+.sms{
+  display: inline-block;
+  font-family: Arial;
+  color: #657786;
+  font-size: 15px;
+  width: 70px;
+  height: 40px;
+  padding-left: 40px;
+}
+.sms img{
+  position: absolute;
+  margin-top: -40px;
+  margin-left: -25px;
+  width: 20px;
+}
+.sms{
+  cursor: pointer;
+}
+.sms:hover{
+  border-bottom:5px solid blue;
+}
+#simbolo{
+  margin-left: 250px;
+  width: 22px;
+}
+#buscar{
+  width: 200px;
+  padding-top: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 6px;
+  border-radius: 14px;
+  margin-top: 10px;
+  margin-left: 139px;
+  position: absolute;
+  border: 1px solid #e6ecf0;
+  background: #f5f8fa;
+  outline: 0px;
+}
+#lupa{
+  position: absolute;
+  margin-left: 596px;
+  margin-top: 16px;
+  z-index: 1;
+}
+#michi{
+  width: 28px;
+  height: 28px;
+  border-radius: 13px;
+  margin-left: 369px;
+  margin-top: 11px;
+  position: absolute;
+}
+.Twitter{
+  background: #1DA1F2;
+  width: 108px;
+  height: 33px;
+  position: absolute;
+  border-radius: 6px;
+  margin-left: 1078px;
+  margin-top: -33px;
+  cursor: pointer;
+}
+.Twitter h4{
+  font-family: Arial;
+color: white;
+margin-top: 8px;
+margin-left: 42px;
+font-size: 14px;
+}
+.Twitter img{
+  position: absolute;
+  margin-left: 11px;
+  margin-top: 6px;
+  width: 24px;
+  height: 24px;
+}
+.fila-uno .curve{
+  width: 16px;
+  height: 16px;
+  margin-left: 90px;
+  margin-top: 0px;
+  position: absolute;
+  cursor: pointer;
+}
+.fila-dos .curve{
+  width: 16px;
+  height: 16px;
+  margin-left: 90px;
+  margin-top: 0px;
+  position: absolute;
+  cursor: pointer;
+}
+.fila-tres .curve{
+  width: 16px;
+  height: 16px;
+  margin-left: 90px;
+  margin-top: 0px;
+  position: absolute;
+  cursor: pointer;
+}
+.fila-cuatro .curve{
+  width: 16px;
+  height: 16px;
+  margin-left: 90px;
+  margin-top: 0px;
+  position: absolute;
+  cursor: pointer;
+}
+.fila-cinco .curve{
+  width: 16px;
+  height: 16px;
+  margin-left: 90px;
+  margin-top: 0px;
+  position: absolute;
+  cursor: pointer;
+}
+.fila-cinco .loop{
+  width: 16px;
+  height: 16px;
+  margin-left: 190px;
+  margin-top: 0px;
+  position: absolute;
+  cursor: pointer;
+}
+.fila-cuatro .loop{
+  width: 16px;
+  height: 16px;
+  margin-left: 190px;
+  margin-top: 0px;
+  position: absolute;
+  cursor: pointer;
+}
+.fila-tres .loop{
+  width: 16px;
+  height: 16px;
+  margin-left: 190px;
+  margin-top: 0px;
+  position: absolute;
+  cursor: pointer;
+}
+.fila-dos .loop{
+  width: 16px;
+  height: 16px;
+  margin-left: 190px;
+  margin-top: 0px;
+  position: absolute;
+  cursor: pointer;
+}
+.fila-uno .loop{
+  width: 16px;
+  height: 16px;
+  margin-left: 190px;
+  margin-top: 0px;
+  position: absolute;
+  cursor: pointer;
+}
+.fila-uno .heart{
+  width: 16px;
+  height: 16px;
+  margin-left: 290px;
+  margin-top: 0px;
+  position: absolute;
+  cursor: pointer;
+}
+.fila-dos .heart{
+  width: 16px;
+  height: 16px;
+  margin-left: 290px;
+  margin-top: 0px;
+  position: absolute;
+  cursor: pointer;
+}
+.fila-tres .heart{
+  width: 16px;
+  height: 16px;
+  margin-left: 290px;
+  margin-top: 0px;
+  position: absolute;
+  cursor: pointer;
+}
+.fila-cuatro .heart{
+  width: 16px;
+  height: 16px;
+  margin-left: 290px;
+  margin-top: 0px;
+  position: absolute;
+  cursor: pointer;
+}
+.fila-cinco .heart{
+  width: 16px;
+  height: 16px;
+  margin-left: 290px;
+  margin-top: 0px;
+  position: absolute;
+  cursor: pointer;
+}
+.fila-cinco .flecha{
+  margin-left: 553px;
+  margin-top: -52px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  cursor: pointer;
+}
+.fila-cuatro .flecha{
+  margin-left: 553px;
+  margin-top: -52px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  cursor: pointer;
+}
+.fila-tres .flecha{
+  margin-left: 553px;
+  margin-top: -52px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  cursor: pointer;
+}
+.fila-dos .flecha{
+  margin-left: 553px;
+  margin-top: -52px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  cursor: pointer;
+}
+.fila-uno .flecha{
+  margin-left: 553px;
+  margin-top: -52px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  cursor: pointer;
+}
+.contenedor-general{
+  width: 94%;
+  height: 611px;
+  background: #f5f8fa;
+  padding: 10px 35px 10px 48px;
+}
+/* CREANDO PRIMERA COLUMNA */
+.contenedor-columna-uno{
+  float: left;
+}
+.seccion-perfil{
+  width: 290px;
+  height: 210px;
+  background: white;
+  margin-bottom: 20px;
+  border: 1px solid #e6ecf0;
+  border-radius: 5px;
+  position: relative;
+}
+.banner{
+  width: 290px;
+  height: 100px;
+}
+.banner img{
+  width: 290px;
+  height: 100px;
+}
+.perfil{
+  width: 85px;
+  height: 85px;
+  border: 3px solid white;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-top: -40px;
+  position: absolute;
+}
+.perfil img{
+  width: 85px;
+  height: 85px;
+}
+.nombre-correo h3{
+  font-family: Arial;
+  margin-left: 110px;
+  margin-top: 7px;
+}
+.nombre-correo h4{
+  font-family: Arial;
+  font-size: 15px;
+  color: #657786;
+  margin-left: 110px;
+  margin-top: -20px;
+}
+.twets{
+  display: inline-block;
+  margin-top: -8px;
+}
+.twets h4{
+  font-family: Arial;
+  font-size: 10px;
+  color: #657786;
+  margin-left: 15px;
+}
+.twets p{
+  font-family: Arial;
+  font-size: 15px;
+  color: #1DA1F2;
+  margin-left: 16px;
+  margin-top: -11px;
+}
+.siguiendo{
+  display: inline-block;
+  margin-left: 35px;
+  position: absolute;
+  margin-top: -8px;
+}
+.siguiendo h4{
+  font-family: Arial;
+  font-size: 10px;
+  color: #657786;
+  margin-left: 15px;
+}
+.siguiendo p{
+  font-family: Arial;
+  font-size: 15px;
+  color: #1DA1F2;
+  margin-left: 16px;
+  margin-top: -11px;
+}
+.seguidores{
+  position: absolute;
+  margin-top: -10px;
+  display: inline-block;
+  margin-left: 130px;
+}
+.seguidores h4{
+  font-family: Arial;
+  font-size: 10px;
+  color: #657786;
+  margin-left: 15px;
+}
+.seguidores p{
+  font-family: Arial;
+  font-size: 15px;
+  color: #1DA1F2;
+  margin-left: 16px;
+  margin-top: -11px;
+}
+.seccion-tendencias{
+  width: 290px;
+  height: 380px;
+  background: white;
+  border: 1px solid #e6ecf0;
+  border-radius: 5px;
+}
+.tendencias h3{
+  font-family: Arial;
+  font-size: 10px;
+  color: #657786;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.tendencias span{
+  font-size: 11px;
+  color: #1DA1F2;
+}
+.tend-uno h4{
+  font-family: Arial;
+  font-size: 12px;
+  color: #1DA1F2;
+  margin-left: 20px;
+}
+.tend-uno p{
+  font-family: Arial;
+  font-size: 12px;
+  color: #657786;
+  margin-left: 20px;
+  margin-top: -15px;
+}
+.tend-dos h4{
+  font-family: Arial;
+  font-size: 12px;
+  color: #1DA1F2;
+  margin-left: 20px;
+}
+.tend-dos p{
+  font-family: Arial;
+  font-size: 12px;
+  color: #657786;
+  margin-left: 20px;
+  margin-top: -15px;
+}
+.tend-tres h4{
+  font-family: Arial;
+  font-size: 12px;
+  color: #1DA1F2;
+  margin-left: 20px;
+}
+.tend-cuatro h4{
+  font-family: Arial;
+  font-size: 12px;
+  color: #1DA1F2;
+  margin-left: 20px;
+}
+.tend-cuatro p{
+  font-family: Arial;
+  font-size: 12px;
+  color: #657786;
+  margin-left: 20px;
+  margin-top: -15px;
+}
+.tend-cinco h4{
+  font-family: Arial;
+  font-size: 12px;
+  color: #1DA1F2;
+  margin-left: 20px;
+}
+.tend-cinco p{
+  font-family: Arial;
+  font-size: 12px;
+  color: #657786;
+  margin-left: 20px;
+  margin-top: -15px;
+}
+.tend-seis h4{
+  font-family: Arial;
+  font-size: 12px;
+  color: #1DA1F2;
+  margin-left: 20px;
+}
+.tend-seis p{
+  font-family: Arial;
+  font-size: 12px;
+  color: #657786;
+  margin-left: 20px;
+  margin-top: -15px;
+}
+.tend-siete h4{
+  font-family: Arial;
+  font-size: 12px;
+  color: #1DA1F2;
+  margin-left: 20px;
+}
+.tend-siete p{
+  font-family: Arial;
+  font-size: 12px;
+  color: #657786;
+  margin-left: 20px;
+  margin-top: -15px;
+}
+.contenedor-columna-uno{
+  float: left;
+}
+/* CREANDO SEGUNDA COLUMNA */
+.contenedor-columna-dos{
+  width: 580px;
+  height: 540px;
+  background: white;
+  margin: 0 0 0 10px;
+  float: left;
+  border: 1px solid #e6ecf0;
+  border-radius: 5px;
+}
+.fila-uno{
+  width: 580px;
+  height: 57px;
+  background:#E8F5FD;
+}
+.fila-uno img{
+  width: 35px;
+  height: 35px;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+.fila-uno .camera{
+  position: absolute;
+  z-index: 5;
+  width: 20px;
+  height: 20px;
+  margin-left: 450px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+.fila-uno input{
+  width: 460px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top:10px;
+  position: absolute;
+  border: 1px solid #e6ecf0;
+  border-radius: 5px;
+  padding-left: 9px;
+  outline: 0;
+}
+.fila-uno input::-webkit-input-placeholder {
+  color: #1DA1F2;
+
+}
+.text-uno h3{
+  font-family: Arial;
+  font-size: 13px;
+  color: black;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+.text-uno span{
+  font-family: Arial;
+  font-size: 13px;
+  color: #657786;
+}
+.text-dos h3{
+  font-family: Arial;
+  font-size: 13px;
+  color: black;
+  margin-left: 90px;
+  margin-top: -12px;
+}
+.text-dos span{
+  color: #1DA1F2;
+}
+.text-tres h3{
+  font-family: Arial;
+  font-size: 13px;
+  color: #1DA1F2;
+  margin-left: 90px;
+  margin-top: -12px;
+}
+.text-cuatro h3{
+  font-family: Arial;
+  font-size: 13px;
+  color: black;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.text-cuatro span{
+  font-family: Arial;
+  font-size: 13px;
+  color: #657786;
+}
+.text-cinco h3{
+  font-family: Arial;
+  font-size: 13px;
+  color: black;
+  margin-left: 90px;
+  margin-top: -12px;
+}
+.text-seis h3{
+  font-family: Arial;
+  font-size: 13px;
+  color: black;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.text-seis span{
+  font-family: Arial;
+  font-size: 13px;
+  color: #657786;
+}
+.text-siete h3{
+  font-family: Arial;
+  font-size: 13px;
+  color: black;
+  margin-left: 90px;
+  margin-top: -12px;
+}
+.text-ocho h3{
+  font-family: Arial;
+  font-size: 13px;
+  color: black;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.text-ocho span{
+  font-family: Arial;
+  font-size: 13px;
+  color: #657786;
+}
+.text-nueve h3{
+  font-family: Arial;
+  font-size: 13px;
+  color: black;
+  margin-left: 90px;
+  margin-top: -12px;
+}
+.text-diez h3{
+  font-family: Arial;
+  font-size: 13px;
+  color: black;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.text-diez span{
+  font-family: Arial;
+  font-size: 13px;
+  color: #657786;
+}
+.text-once h3{
+  font-family: Arial;
+  font-size: 13px;
+  color: black;
+  margin-left: 90px;
+  margin-top: -12px;
+}
+.text-doce{
+  display: inline-block;
+  margin-top: -4px;
+  margin-left: 6px;
+  position: absolute;
+}
+.text-doce h3{
+  font-family: Arial;
+  font-size: 13px;
+  color: black;
+}
+.text-doce span{
+  font-family: Arial;
+  font-size: 13px;
+  color: #657786;
+}
+.text-trece{
+  display: inline-block;
+  margin-top: -4px;
+  margin-left: 6px;
+  position: absolute;
+}
+.text-trece h3{
+  font-family: Arial;
+  font-size: 13px;
+  color: black;
+}
+.text-trece span{
+  font-family: Arial;
+  font-size: 13px;
+  color: #657786;
+}
+.text-catorce{
+  display: inline-block;
+  margin-top: -4px;
+  margin-left: 6px;
+  position: absolute;
+}
+.text-catorce h3{
+  font-family: Arial;
+  font-size: 13px;
+  color: black;
+}
+.text-catorce span{
+  font-family: Arial;
+  font-size: 13px;
+  color: #657786;
+}
+
+.fila-dos{
+  width: 580px;
+  height: 95px;
+  border: 1px solid #e6ecf0;
+}
+.fila-dos img{
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.fila-tres{
+  width: 580px;
+  height: 95px;
+  border: 1px solid #e6ecf0;
+}
+.fila-tres img{
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.fila-cuatro{
+  width: 580px;
+  height: 95px;
+  border: 1px solid #e6ecf0;
+}
+.fila-cuatro img{
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.fila-cinco{
+  width: 580px;
+  height: 95px;
+  border: 1px solid #e6ecf0;
+}
+.fila-cinco img{
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.fila-seis{
+  width: 580px;
+  height: 95px;
+  border-top: 1px solid #e6ecf0;
+}
+.fila-seis img{
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+/* CREANDO TERCERCA COLUMNA */
+.contenedor-columna-tres{
+  width: 270px;
+  height:500px;
+  float: left;
+
+}
+.seccion-seguir{
+  width: 270px;
+  height: 270px;
+  background: white;
+  margin: 0 0 20px 10px;
+  float: left;
+  border: 1px solid #e6ecf0;
+  border-radius: 5px;
+}
+.seccion-seguir h4{
+  font-family: Arial;
+  font-size: 16px;
+  margin-left: 18px;
+  color: #657786;
+
+}
+.seccion-seguir h4 span{
+  font-family: Arial;
+  margin-left: 5px;
+  font-size: 11px;
+  color: #1DA1F2;
+}
+.seguir-uno{
+  width: 270px;
+  height: 60px;
+  background: white;
+  position: absolute;
+  margin-top: -15px;
+}
+.seguir-uno img{
+  margin-left: 15px;
+  margin-top: 0px;
+  border-radius: 6px;
+}
+.seguir-uno button{
+  border-radius: 4px;
+  border: 1px solid #e6ecf0;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 35px;
+  margin-top: -10px;
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.05));
+  outline: none;
+  cursor: pointer;
+}
+.seguir-dos button{
+  border-radius: 4px;
+  border: 1px solid #e6ecf0;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 35px;
+  margin-top: -10px;
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.05));
+  outline: none;
+  cursor: pointer;
+}
+.seguir-tres button{
+  border-radius: 4px;
+  border: 1px solid #e6ecf0;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 35px;
+  margin-top: -10px;
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.05));
+  outline: none;
+  cursor: pointer;
+}
+.seguir-dos img{
+  margin-left: 15px;
+  margin-top: 2px;
+  border-radius: 6px;
+}
+.seguir-tres img{
+  margin-left: 16px;
+  margin-top: 1px;
+  border-radius: 6px;
+}
+.seguir-dos{
+  width: 270px;
+  height: 60px;
+  background: white;
+  position: absolute;
+  margin-top: 49px;
+}
+.seguir-tres{
+  width: 270px;
+  height: 60px;
+  background: white;
+  position: absolute;
+  margin-top: 114px;
+}
+.seccion-seguir p{
+  position: absolute;
+  margin-left: 20px;
+  font-family: Arial;
+  font-size: 11px;
+  color: #1DA1F2;
+  margin-top: 187px;
+}
+.seccion-informacion{
+  width: 270px;
+  height: 158px;
+  background: white;
+  margin-left: 10px;
+  float: left;
+  border: 1px solid #e6ecf0;
+  border-radius: 5px;
+}
+.seccion-informacion p{
+  font-family: Arial;
+  color: #657786;
+  font-size: 12px;
+  margin-left: 15px;
+}
+.div-final{
+  width: 270px;
+  height: 50px;
+  background: red;
+  background:  #f5f8fa;
+}
+.div-final h4{
+  font-family: Arial;
+  font-size: 11px;
+  color: #1DA1F2;
+  margin-left: 15px;
+  margin-top: 19px;
+  position: absolute;
+}
+.social{
+  position: absolute;
+  margin-top: 37px;
+}
+.seguir-uno .equiz{
+  position: absolute;
+width: 13px;
+height: 13px;
+margin-left: 175px;
+margin-top: 10px;
+cursor: pointer;
+}
+.seguir-dos .equiz{
+  position: absolute;
+width: 13px;
+height: 13px;
+margin-left: 175px;
+margin-top: 10px;
+cursor: pointer;
+}
+.seguir-tres .equiz{
+  position: absolute;
+width: 13px;
+height: 13px;
+margin-left: 175px;
+margin-top: 10px;
+cursor: pointer;
+}
